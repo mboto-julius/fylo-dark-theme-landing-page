@@ -50,3 +50,25 @@ header{
 .prod-image img{
     width: 100%;
 }
+
+.productive-link{
+    position: relative;
+    text-decoration: none;
+    color: var(--blue-one);
+}
+
+.productive-link span img{
+    width: 20px;
+}
+
+.productive-link::after{
+    position: absolute;
+    content: "";
+    background-color: var(--blue-one);
+    width: 160px;
+    height: 2px;
+    left: 0;
+    bottom: 0;
+    top: 26px;
+}
+
