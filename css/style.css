@@ -5,6 +5,7 @@
     --dark-blue-footer: hsl(216, 53%, 9%);
     --dark-blue-testimonial: hsl(219, 30%, 18%);
     --white: hsl(0, 0%, 100%);
+    --blue-one: hsl(198, 60%, 50%);
 
 }
 
@@ -32,6 +33,14 @@ header{
 
 .illustration img{
     width: 100%;
+}
+
+.hero-link{
+    background-color: var(--blue-one);
+    color: var(--white);
+    text-decoration: none;
+    padding: 12px 50px;
+    border-radius: 100px;
 }
 
 /* ----- feature section ----- */
