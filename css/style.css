@@ -20,3 +20,12 @@ header{
 .navbar-brand img{
     width: 100%;
 }
+
+/* ----- hero section ----- */
+.hero-section{
+    background-color: var(--dark-blue);
+}
+
+.illustration img{
+    width: 100%;
+}
