@@ -27,7 +27,7 @@ header{
 }
 
 /* ----- hero section ----- */
-.hero-section, .features-section{
+.hero-section, .features-section, .productive{
     background-color: var(--dark-blue);
 }
 
@@ -44,3 +44,9 @@ header{
 }
 
 /* ----- feature section ----- */
+
+
+/* ----- stay productive section ------ */
+.prod-image img{
+    width: 100%;
+}
