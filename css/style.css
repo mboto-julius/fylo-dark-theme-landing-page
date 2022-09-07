@@ -26,10 +26,12 @@ header{
 }
 
 /* ----- hero section ----- */
-.hero-section{
+.hero-section, .features-section{
     background-color: var(--dark-blue);
 }
 
 .illustration img{
     width: 100%;
 }
+
+/* ----- feature section ----- */
