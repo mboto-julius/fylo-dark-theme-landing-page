@@ -21,6 +21,10 @@ header{
     width: 80%;
 }
 
+.white-color{
+    color: var(--white);
+}
+
 /* ----- hero section ----- */
 .hero-section{
     background-color: var(--dark-blue);
