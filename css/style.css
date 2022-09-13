@@ -91,6 +91,43 @@ header{
 
 /* ------ get started section ------ */
 .margin-top{
-    margin-top: 1rem;
+    margin-top: 5rem;
     background-color: var(--dark-blue-testimonial);
 }
+
+
+/* ----- footer ----- */
+footer{
+    padding-top: 12rem;
+    background-color: var(--dark-blue-footer);
+}
+
+i{
+    font-size: 20px;
+    border: 1px solid var(--white);
+    padding: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.column-one a, .column-two a{
+    color: var(--white);
+    text-decoration: none;
+}
+
+.email img, .phone img, .location img{
+    width: 20px;
+    height: 20px;
+}
+
+
+.footer-logo img{
+    width: 12%;
+}
+
+a:hover{
+    color: var(--white) !important;
+    cursor: pointer;
+}
+
+
