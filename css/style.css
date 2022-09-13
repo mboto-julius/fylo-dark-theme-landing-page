@@ -27,7 +27,7 @@ header{
 }
 
 /* ----- hero section ----- */
-.hero-section, .features-section, .productive, .testimonial-section{
+.hero-section, .features-section, .productive, .testimonial-section, .get-started{
     background-color: var(--dark-blue);
 }
 
@@ -86,4 +86,11 @@ header{
 .testimonial{
     background-color: var(--dark-blue-testimonial);
     padding: 1rem 2rem;
+}
+
+
+/* ------ get started section ------ */
+.margin-top{
+    margin-top: 1rem;
+    background-color: var(--dark-blue-testimonial);
 }
